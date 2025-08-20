@@ -1,3 +1,4 @@
+import entidades.Cliente
 import entidades.Profissional
 import entidades.Servico
 import enumeradores.Setor
@@ -21,6 +22,14 @@ val instalacao : Servico = Servico(
     )
 
 )
+    val cliente = Cliente("João", 30, "joao@email.com", "12345678900", "11999999999", "Rua Exemplo, 123")
+    val profissional = Profissional("Carlos", "Encanador", "11988888888", 40, "Técnico", "Hidráulica", Setor.MONTAGEM)
 
+    // Cliente paga
+    cliente.conta(150.0)
 
+    // Profissional recebe
+    profissional.conta(100.0)
 }
+
+
