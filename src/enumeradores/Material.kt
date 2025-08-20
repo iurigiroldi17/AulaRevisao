@@ -5,5 +5,5 @@ enum class Material {
     , PAPEL
     , VIDRO
     , METAL
-    , MADEIRA
+    , MADEIRa
 }
